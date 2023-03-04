@@ -37,6 +37,7 @@ class AppContainer extends HTMLElement {
           <app-games game="https://i.pinimg.com/564x/74/67/97/746797c9435bcfbccc51d27e940fdd37.jpg"></app-games>
           <app-games game="https://i.pinimg.com/564x/e3/ba/1a/e3ba1a29c74f92b7c9e2c6ef82f84d65.jpg"></app-games>
           <app-games game="https://i.pinimg.com/564x/71/d3/ff/71d3ff7bd485cda936080a4e2020cd1e.jpg"></app-games>
+          <app-arrowrev></app-arrowrev>
         </section>
       `
     }
