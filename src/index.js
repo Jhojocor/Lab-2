@@ -21,6 +21,10 @@ class AppContainer extends HTMLElement {
           <app-header icon="https://cn.i.cdn.ti-platform.com/menu/item/climate-champions/za/climate-champs-mainnav.92be4ce8.svg" names="Campeones del clima"></app-header>
           <app-header icon="https://cn.i.cdn.ti-platform.com/menu/item/aplicaciones/es/apps.svg" names="Aplicaciones"></app-header>
         </nav>
+
+        <section class="games">
+          <app-arrow></app-arrow>
+        </section>
       `
     }
 }

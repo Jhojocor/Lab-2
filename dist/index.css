@@ -29,3 +29,34 @@ h4 {
     width: 40px;
     height: auto;
 }
+
+.games{
+    padding: 5px 5px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    height: 110px; 
+    background-color: #F8F7F8; 
+    color: white; 
+}
+
+.games-icon{
+    border-radius: 50%;
+    width: 85px;
+    height: auto;
+    transition: all .2s ease-in-out;
+    z-index: 200;
+}
+
+.games-icon:hover{
+    transform: scale(1.2);
+}
+
+.games-icon-next{
+   transform: rotate(180deg); 
+}
+
+.games-icon-size{
+    width: 40px;
+    z-index: 200px;
+}
