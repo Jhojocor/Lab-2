@@ -24,6 +24,7 @@ class AppContainer extends HTMLElement {
 
         <section class="games">
           <app-arrow></app-arrow>
+          <app-games></app-games>
         </section>
       `
     }
