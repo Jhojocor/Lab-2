@@ -1,5 +1,9 @@
 class Games extends HTMLElement{
-  
+
+      static get observedAttributes() {
+        return ["game"];
+      }
+
       constructor(){
           super();
           this.attachShadow({mode: 'open'})
@@ -9,10 +13,15 @@ class Games extends HTMLElement{
           this.render();
       }
 
+      attributeChangedCallback(propName, oldValue, newValue) {
+        this[propName] = newValue;
+        this.render();
+      }      
+
       render(){
           this.shadowRoot.innerHTML = `
           <link rel="stylesheet" href="index.css">
-               <img class="games-icon" src="https://i.gifer.com/4XAV.gif">
+               <img class="games-icon" src="${this.game}">
       `
       }
   }
