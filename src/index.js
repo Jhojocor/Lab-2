@@ -39,6 +39,14 @@ class AppContainer extends HTMLElement {
           <app-games game="https://i.pinimg.com/564x/71/d3/ff/71d3ff7bd485cda936080a4e2020cd1e.jpg"></app-games>
           <app-arrowrev></app-arrowrev>
         </section>
+
+        <section class="cards">
+        <app-arrow></app-arrow>
+         <app-cards cardimg="https://cn.i.cdn.ti-platform.com/content/334/bmx-champions/game/es/bmxchampions-1920x1080-en.cce2a4fe.jpg?imwidth=400"></app-cards>
+         <app-cards cardimg="https://apps.cartoonnetwork.co.uk/uploads/galleries/app/app2/5/427/mini/63d4b94d92ad590b86d7e646a17f0ad69862012.jpg"></app-cards>
+         <app-cards cardimg="https://cn.i.cdn.ti-platform.com/content/334/penalty-power-3/game/es/penaltypower3_1600x900-es-min.f3ff4834.jpg?imwidth=300"></app-cards>
+         <app-arrowrev></app-arrowrev>
+        </section>
       `
     }
 }
