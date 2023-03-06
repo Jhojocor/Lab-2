@@ -46,6 +46,7 @@ h4 {
     height: auto;
     transition: all .2s ease-in-out;
     z-index: 200;
+    background-color: rgba(254, 255, 255, 0.352);
 }
 
 .games-icon:hover{
@@ -59,6 +60,8 @@ h4 {
 .games-icon-size{
     width: 40px;
     z-index: 200px;
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 * {box-sizing: border-box;}
@@ -112,4 +115,66 @@ h4 {
 
 .tittleGame h1{
     margin-left: 25px;
+}
+
+.Pedazopajuegos{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.cardgame{
+    width: 300px;
+    height: 250px;
+    background-color: #FEFFFE;
+    border-radius: 15px;
+}
+
+.cardgame:hover{
+    transform: scale(1.1);
+    transition: all .4s ease-in-out;
+}
+
+.cardgameimg{
+    width: 300px;
+    height: 165px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.tittlecard{
+    height: auto;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: -8px;
+}
+
+.tittlecard h2{
+    margin-top: -18px;
+}
+
+.tittlecard h5{
+    color: rgb(79, 79, 79);
+}
+
+.iconremote{
+    width: 64px;
+    height: 64px;
+    background-color: black;
+    padding: 12px;
+    border-radius: 100px;
+    margin-left: 220px;
+    margin-top: -30px;
+    position: absolute;
+}
+
+.iconremote img{
+    width: 40px;
+    height: 40px;
+}
+
+.arreglo{
+    display: flex;
+    flex-direction: row;
 }

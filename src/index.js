@@ -50,6 +50,14 @@ class AppContainer extends HTMLElement {
 
         <section class="featuredGames">
         <app-tittlesection icon="https://cn.i.cdn.ti-platform.com/menu/item/games/es/games.svg" tittle="Juegos destacados"></app-tittlesection>
+        <div class="Pedazopajuegos">
+          <app-arrow></app-arrow>
+          <app-cardgame cardimg="https://cn.i.cdn.ti-platform.com/content/1718/busca-la-pareja/game/es/matchup-1600x900-es.6ace9185.jpg?imwidth=300" data-src="https://cn.i.cdn.ti-platform.com/content/1718/busca-la-pareja/game/es/matchup-1600x900-es.6ace9185.jpg?imwidth=300"  nameserie="DC Super Hero girls" namejuego="Busca la pareja"></app-cardgame>
+          <app-cardgame cardimg="https://cn.i.cdn.ti-platform.com/content/934/carambola-de-ositos/game/es/bouncycubs-1600x900-es.288eac69.jpg?imwidth=300" nameserie="Somos osos" namejuego="bear carambola"></app-cardgame>
+          <app-cardgame cardimg="https://cn.i.cdn.ti-platform.com/content/1897/how-to-draw---gumball/game/uk/thumbnails_how-to-draw-gumball-1600-x-900.d5035e62.jpg?imwidth=300" nameserie="#CNjunto" namejuego="!learn to draw¡"></app-cardgame>
+          <app-cardgame cardimg="https://cn.i.cdn.ti-platform.com/cnemea/content/16410/game/SoundCastle-WBB-Cover-Es.jpg?imwidth=300" nameserie="Hora de aventura" namejuego="Sonocastillo"></app-cardgame>
+          <app-arrowrev></app-arrowrev>
+        </div>
         </section>
       `
     }
