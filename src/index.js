@@ -58,6 +58,7 @@ class AppContainer extends HTMLElement {
           <app-cardgame cardimg="https://cn.i.cdn.ti-platform.com/cnemea/content/16410/game/SoundCastle-WBB-Cover-Es.jpg?imwidth=300" nameserie="Hora de aventura" namejuego="Sonocastillo"></app-cardgame>
           <app-arrowrev></app-arrowrev>
         </div>
+        <app-allinfobutton icon="https://cncdn.dmti.cloud/200e4a4b5c610e7faf2ade024293655cdbae5a40/static/media/game_wht.e0291b25.svg" tittle="VER TODOS LOS JUEGOS"></app-allinfobutton>
         </section>
       `
     }
