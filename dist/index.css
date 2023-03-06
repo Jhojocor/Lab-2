@@ -83,3 +83,33 @@ h4 {
 .cards-icon:hover{
     transform: scale(0.9);
 }
+
+.featuredGames{
+    background-color: #2EADE4;
+    height: 620px;
+}
+
+.tittleGame{
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+.icon{
+    width: 64px;
+    height: 64px;
+    background-color: black;
+    padding: 12px;
+    border-radius: 100px;
+    margin-left: 160px;
+}
+
+.icon img{
+    width: 40px;
+    height: 40px;
+}
+
+.tittleGame h1{
+    margin-left: 25px;
+}

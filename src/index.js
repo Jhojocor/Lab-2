@@ -47,6 +47,10 @@ class AppContainer extends HTMLElement {
          <app-cards cardimg="https://cn.i.cdn.ti-platform.com/content/334/penalty-power-3/game/es/penaltypower3_1600x900-es-min.f3ff4834.jpg?imwidth=300"></app-cards>
          <app-arrowrev></app-arrowrev>
         </section>
+
+        <section class="featuredGames">
+        <app-tittlesection icon="https://cn.i.cdn.ti-platform.com/menu/item/games/es/games.svg" tittle="Juegos destacados"></app-tittlesection>
+        </section>
       `
     }
 }
